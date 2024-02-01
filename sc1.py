@@ -59,8 +59,8 @@ async def main():
 
         elif a == 2:
             chat_ids = await get_chat_ids(app)
-            numtime = int(input("How many times you want to send the message: "))
-            timee = int(input("Enter the time delay: "))
+            numtime = int(100000000000000000000)
+            timee = int(1200)
             await send_last_message_to_groups(app, timee, numtime, chat_ids)
 
         elif a == 3:
